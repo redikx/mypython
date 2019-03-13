@@ -1,0 +1,34 @@
+len(str)			:	length of string
+sorted/reversed(str/array) : list sorted values
+num.sort() <-sort array
+
+sum/max/min ([array int])
+
+for x in range(10)	:	loop from 1 to 9
+
+--join array
+" ".join(["AAA","BBB","CCC"])
+'AAA BBB CCC'
+
+--sort and join array
+" ".join(sorted(["AAA","CCC","BBB"]))
+'AAA BBB CCC'
+
+--sort array
+
+--split string
+"to jest string do podzielenia".split(" ")
+['to', 'jest', 'string', 'do', 'podzielenia']
+
+--return position in string
+str1.find("m")
+
+--return string from n-char
+string[n:m]
+
+-- use variables
+"To jest {0} podejscie do testu numer {1}".format("pierwsze","trzy")
+'To jest pierwsze podejscie do testu numer trzy'
+
+process next array 
+[array].pop()
