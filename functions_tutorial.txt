@@ -32,3 +32,4 @@ string[n:m]
 
 process next array 
 [array].pop()
+
