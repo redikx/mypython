@@ -57,3 +57,9 @@ process next array
 >>> "Nasz" in cats
 True
 
+
+>>> for name in cats:
+	print("{0} has cat named {1}".format(name,cats[name]))	
+Ich has cat named Ichda
+Stranger has cat named 666
+Nasz has cat named Ruda
