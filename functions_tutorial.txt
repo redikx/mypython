@@ -69,3 +69,13 @@ Nasz has cat named Ruda
 Ichda
 666
 Ruda
+
+>>> for (name,catname) in cats.items() :
+	print("Name : "+name)
+	print("Cat :" + catname)
+
+	
+Name : Ich
+Cat :Ichda
+Name : Stranger
+
