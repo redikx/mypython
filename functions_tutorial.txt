@@ -33,6 +33,7 @@ string[n:m]
 process next array 
 [array].pop()
 
+-----------------------------------------------------------------
 #DICTIONARIES:
 --create dict and enter values
 >>> cats = {}
@@ -45,6 +46,14 @@ process next array
 {'Ich': 'Ichda', 'Nasz': 'Ruda'}
 >>> cats["Ich"]
 'Ichda'
+>>> cats["Stranger"] = 666
+>>> cats
+{'Ich': 'Ichda', 'Stranger': 666, 'Nasz': 'Ruda'}
 >>> cats.get("Ich")
 'Ichda'
 >>> 
+
+--check if value exists in dict:
+>>> "Nasz" in cats
+True
+
