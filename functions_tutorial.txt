@@ -63,3 +63,9 @@ True
 Ich has cat named Ichda
 Stranger has cat named 666
 Nasz has cat named Ruda
+
+>>> for name in cats.values():
+	print(name)
+Ichda
+666
+Ruda
