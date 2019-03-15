@@ -33,3 +33,18 @@ string[n:m]
 process next array 
 [array].pop()
 
+#DICTIONARIES:
+--create dict and enter values
+>>> cats = {}
+>>> cats
+{}
+>>> cats["Nasz"] = "Ruda"
+>>> cats["Ich"] = "Ichda"
+--get values
+>>> cats
+{'Ich': 'Ichda', 'Nasz': 'Ruda'}
+>>> cats["Ich"]
+'Ichda'
+>>> cats.get("Ich")
+'Ichda'
+>>> 
